@@ -6,7 +6,6 @@
 
 body {
 	background-color: #171717;
-<<<<<<< HEAD
 }
 
 .nav a {
@@ -54,24 +53,3 @@ body {
 .article-information a{
 	text-decoration: none;
 }
-=======
-	margin: 0;
-	padding: 0;
-	background-image: url(ComingSoon.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
-	-webkit-background-size: auto;
-    -moz-background-size: auto;
-    -o-background-size: auto;
-    background-size: auto;
-}
-#background {
-	position: absolute;
-	min-height: 100%;
-	width: 100%;
-	height: auto;
-	top: 0;
-	left: 0;
-	background: url('ComingSoon.jpg');
-}
->>>>>>> a325c734feec5a0df8c16b595303eb15216d45d2
