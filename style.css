@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Neou-Thin; src: url('fonts/Neou-Thin.otf');
-	font-family: Neou-Bold; src: url('fonts/Neou-Bold.otf');
+	font-family: Neou-Bold; font-weight: bold; src: url('fonts/Neou-Bold.otf');
 	font-family: Bauhs; src: url('fonts/BAUHS93.ttf');
 }
 
@@ -9,7 +9,7 @@ body {
 }
 
 .nav a {
-	color: #e7e7e7;
+	color: #a7a7a7;
 	padding: 14px 60px;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -20,6 +20,7 @@ body {
 .nav a:hover {
 	background-color: #404040;
 	text-decoration: none;
+	color: #e7e7e7;
 }
 
 .nav li {
@@ -39,6 +40,18 @@ body {
 	line-height: 0px;
 }
 
+.large-center-image .container .headingColorOne {
+	color: #1275FF;
+	font-family: Neou-Thin;
+	font-size: 32px;
+}
+
+.large-center-image .container .headingColorTwo {
+	color: #FFAE12;
+	font-family: Neou-Bold;
+	font-size: 33px;
+}
+
 .welcome-page .content p {
 	width: 800px;
 	margin-left: 400px;
@@ -50,6 +63,16 @@ body {
 	text-align: center;
 }
 
+.article-information h3 {
+	color: #1275FF;
+
+}
+
 .article-information a{
 	text-decoration: none;
+	color: #1275FF;
+}
+
+.article-information a:hover {
+	color: #FFAE12;
 }
